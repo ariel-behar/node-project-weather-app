@@ -1,0 +1,19 @@
+{
+    "name": "web-server",
+    "version": "1.0.0",
+    "description": "Web Server that hosts my weather app",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon -e js,hbs"
+    },
+    "author": "Ariel Behar",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
